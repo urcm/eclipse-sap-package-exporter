@@ -7,7 +7,6 @@ An Eclipse plug-in designed to export ABAP packages and their source code from S
 - **Recursive Export**: Automatically crawls through sub-packages and exports all contained objects.
 - **Hierarchy Preservation**: Recretes the SAP package structure in your local folder system (e.g., `Parent_Package/Sub_Package/src/clas/ZCL_MY_CLASS.abap`).
 - **Auto-Detection**: Dynamically detects connection details (Host, System Number, User, Client) from your active ADT (ABAP Development Tools) project.
-- **Secure Input**: Features a masked password dialog to ensure your SAP credentials remain private.
 - **Supported Objects**: Includes Classes (`CLAS`), Interfaces (`INTF`), CDS Views (`DDLS`), Enhancement Options, Programs, and more.
 
 ## 📦 Installation
