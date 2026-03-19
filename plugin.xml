@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.commands">
+      <command id="com.urcm.abap.exporter.commands.exportPackage"
+               name="Export ABAP Package"/>
+   </extension>
+   <extension point="org.eclipse.ui.handlers">
+      <handler class="com.urcm.abap.exporter.handlers.ExportHandler"
+               commandId="com.urcm.abap.exporter.commands.exportPackage"/>
+   </extension>
+   <extension point="org.eclipse.ui.menus">
+      <menuContribution allPopups="false"
+                        locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <command commandId="com.urcm.abap.exporter.commands.exportPackage"
+                  label="Export Package to File System..."
+                  style="push"/>
+      </menuContribution>
+   </extension>
+</plugin>
