@@ -4,7 +4,7 @@ An Eclipse plug-in designed to export ABAP packages and their source code from S
 
 ## 🚀 Key Features
 
-- **Multi-System Support**: Works seamlessly on both **SAP BTP ABAP Environment (Cloud)** and **On-Premise** SAP systems.
+- **Multi-System Support**: Works seamlessly on both **SAP (Cloud)** and **On-Premise** SAP systems.
 - **Recursive Export**: Automatically crawls through sub-packages and exports all contained objects.
 - **Hierarchy Preservation**: Recreates the SAP package structure in your local folder system (e.g., `Parent_Package/Sub_Package/src/clas/ZCL_MY_CLASS.clas.abap`).
 - **Zero Configuration**: Dynamically detects connection details from your active ADT (ABAP Development Tools) project. No manual host or URL configuration required.
@@ -38,7 +38,7 @@ If you wish to contribute or build from source:
 1. Open the **ABAP Project Explorer** in Eclipse.
 2. **Log in** to your ABAP Project (ensure the connection is active).
 3. Right-click on any **ABAP Package** you want to export.
-4. Select **Export ABAP Package** from the context menu.
+4. Select **Export Package to File System** from the context menu.
 5. Enter the **Package Name** and select a **Target Directory** on your local machine.
 6. Wait for the process to complete. A summary log will appear with the results.
 
